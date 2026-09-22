@@ -1,10 +1,17 @@
 {
-  "extensions": [],
-  "repos": [
+  "extensions": [
     {
       "id": "giftcard",
-      "organisation": "GDur4n66",
-      "repository": "lnbits-giftcard"
+      "repo": "https://github.com/GDur4n66/lnbits-giftcard",
+      "name": "Giftcard",
+      "version": "0.1.0",
+      "min_lnbits_version": "1.6.2",
+      "short_description": "Issue and manage NFC Lightning gift cards.",
+      "archive": "https://github.com/GDur4n66/lnbits-giftcard/archive/61d85d4d6be47cf909b021373bccd6b4e34ac467.zip",
+      "hash": "91ae86dcaa2f4d463fdecf7425a61721379d41f8e2c6f869b97724a09cfc4fe8",
+      "details_link": "https://raw.githubusercontent.com/GDur4n66/lnbits-giftcard/61d85d4d6be47cf909b021373bccd6b4e34ac467/config.json",
+      "html_url": "https://github.com/GDur4n66/lnbits-giftcard"
     }
-  ]
+  ],
+  "repos": []
 }
