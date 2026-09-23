@@ -2,7 +2,7 @@
   "extensions": [
     {
       "id": "denchi",
-      "repo": "https://github.com/GDur4n66/lnbits-giftcard",
+      "repo": "https://github.com/GDur4n66/denchi",
       "name": "Denchi Card",
       "version": "0.2.0",
       "min_lnbits_version": "1.6.2",
@@ -10,10 +10,10 @@
         "withdraw"
       ],
       "short_description": "Issue and manage NFC Lightning cards.",
-      "archive": "https://github.com/GDur4n66/lnbits-giftcard/archive/8ab4bb3b444e31e8afa5b6f9fab698d74092627b.zip",
-      "hash": "1b18eb615e6c16543b841ade77f87689ca1ab443d45b4dff466a20a1d8f0ee38",
-      "details_link": "https://raw.githubusercontent.com/GDur4n66/lnbits-giftcard/8ab4bb3b444e31e8afa5b6f9fab698d74092627b/config.json",
-      "html_url": "https://github.com/GDur4n66/lnbits-giftcard",
+      "archive": "https://github.com/GDur4n66/denchi/archive/43e440e62ff51fb3b3eef2637e51be0a098ae07e.zip",
+      "hash": "3244c94d8e0f1113c364c165acf9e3d624d202354644995a643078cdae46d3df",
+      "details_link": "https://raw.githubusercontent.com/GDur4n66/denchi/43e440e62ff51fb3b3eef2637e51be0a098ae07e/config.json",
+      "html_url": "https://github.com/GDur4n66/denchi",
       "warning": "Renamed from Giftcard. Back up your LNbits database and disable Giftcard before installing. Legacy records are copied once. Enable Denchi Card per account and update bookmarks to /denchi/. Do not run both managers."
     }
   ],

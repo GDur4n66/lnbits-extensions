@@ -24,9 +24,8 @@ Profiles and card records while preserving existing wallets and Withdraw links.
 Enable Denchi Card for each account; update bookmarks to `/denchi/`. NFC tags do
 not need rewriting. Do not manage the same cards through both extensions.
 
-See the [migration instructions](https://github.com/GDur4n66/lnbits-giftcard#upgrading-from-giftcard-010).
+See the [migration instructions](https://github.com/GDur4n66/denchi#upgrading-from-giftcard-010).
 
 Each extension has its own repository. Add future releases to `extensions` with
 an immutable archive URL and SHA-256 hash, or add a repository to `repos` when
-publishing tagged GitHub releases. The existing `lnbits-giftcard` repository URL
-is retained for link compatibility; the extension ID is `denchi`.
+publishing tagged GitHub releases. Denchi Card is hosted at `GDur4n66/denchi`; its extension ID is `denchi`.
