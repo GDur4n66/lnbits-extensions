@@ -1,22 +1,32 @@
 # GDur4n66 LNbits Extensions
 
-Extension manifest for LNbits extensions maintained by GDur4n66.
+Extension catalog maintained by GDur4n66.
 
-## Add this manifest to LNbits
+## Install
 
-Add the following URL under **Manage Server > Server > Extensions Manifests**:
+Add this URL under **Manage Server > Server > Extensions Manifests**:
 
 ```text
 https://raw.githubusercontent.com/GDur4n66/lnbits-extensions/main/manifest.json
 ```
 
-Then open **Manage Extensions > Add Remove Extensions** to install an available
-release.
+Open **Manage Extensions > Add Remove Extensions** to install a listed version.
 
 ## Extensions
 
-- `giftcard`: NFC Lightning gift-card issuing and management.
+- **Denchi Card** (`denchi`): NFC Lightning card issuing, management and balance lookup. Requires Withdraw.
 
-Each extension lives in its own repository. New extensions can be published by
-adding another object to the `repos` array in `manifest.json` after their first
-GitHub release is available.
+## Upgrade from Giftcard
+
+Denchi Card 0.2.0 uses a new extension ID. Back up the database, disable Giftcard,
+then install Denchi Card on the same LNbits instance. Its migration copies legacy
+Profiles and card records while preserving existing wallets and Withdraw links.
+Enable Denchi Card for each account; update bookmarks to `/denchi/`. NFC tags do
+not need rewriting. Do not manage the same cards through both extensions.
+
+See the [migration instructions](https://github.com/GDur4n66/lnbits-giftcard#upgrading-from-giftcard-010).
+
+Each extension has its own repository. Add future releases to `extensions` with
+an immutable archive URL and SHA-256 hash, or add a repository to `repos` when
+publishing tagged GitHub releases. The existing `lnbits-giftcard` repository URL
+is retained for link compatibility; the extension ID is `denchi`.
