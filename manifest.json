@@ -13,8 +13,7 @@
       "archive": "https://github.com/GDur4n66/denchi/archive/68d894a2168e626130edeac76e3b0e123fc7d3d5.zip",
       "hash": "b6902264f5a713d852908d68852cae8f727a3c23f232d12d70284f33efb1f310",
       "details_link": "https://raw.githubusercontent.com/GDur4n66/denchi/68d894a2168e626130edeac76e3b0e123fc7d3d5/config.json",
-      "html_url": "https://github.com/GDur4n66/denchi",
-      "warning": "Renamed from Giftcard. Back up your LNbits database and disable Giftcard before installing. Legacy records are copied once. Enable Denchi Card per account and update bookmarks to /denchi/. Do not run both managers."
+      "html_url": "https://github.com/GDur4n66/denchi"
     }
   ],
   "repos": []
