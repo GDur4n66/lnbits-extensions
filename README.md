@@ -18,7 +18,7 @@ Open **Manage Extensions > Add Remove Extensions** to install a listed version.
 
 ## Upgrade from Giftcard
 
-Denchi Card 0.2.0 uses a new extension ID. Back up the database, disable Giftcard,
+Denchi Card 0.2.x and later use a new extension ID. Back up the database, disable Giftcard,
 then install Denchi Card on the same LNbits instance. Its migration copies legacy
 Profiles and card records while preserving existing wallets and Withdraw links.
 Enable Denchi Card for each account; update bookmarks to `/denchi/`. NFC tags do
