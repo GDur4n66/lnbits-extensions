@@ -4,15 +4,15 @@
       "id": "denchi",
       "repo": "https://github.com/GDur4n66/denchi",
       "name": "Denchi Card",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "min_lnbits_version": "1.6.2",
       "dependencies": [
         "withdraw"
       ],
       "short_description": "Issue and manage NFC Lightning cards.",
-      "archive": "https://github.com/GDur4n66/denchi/archive/68d894a2168e626130edeac76e3b0e123fc7d3d5.zip",
-      "hash": "b6902264f5a713d852908d68852cae8f727a3c23f232d12d70284f33efb1f310",
-      "details_link": "https://raw.githubusercontent.com/GDur4n66/denchi/68d894a2168e626130edeac76e3b0e123fc7d3d5/config.json",
+      "archive": "https://github.com/GDur4n66/denchi/archive/d7d867ff9ebf04520e4760725ccd5415d6a19445.zip",
+      "hash": "cc8e38326305bbfbcc30998c2673424f9e82465d8cf999955c2853a3ee4e059a",
+      "details_link": "https://raw.githubusercontent.com/GDur4n66/denchi/d7d867ff9ebf04520e4760725ccd5415d6a19445/config.json",
       "html_url": "https://github.com/GDur4n66/denchi"
     }
   ],
